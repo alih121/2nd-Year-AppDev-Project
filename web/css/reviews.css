@@ -1,0 +1,161 @@
+body{
+  background-color: black;
+  width:80%;
+  margin:0 auto;
+  font-family: 'Share Tech';
+  //margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: (3, 1fr);
+}
+
+#logo{
+  color: white;
+  width: 310px;
+  margin-left: 62px;
+  margin-top: 20px;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+#search{
+  width: 350px;
+  margin-left: 400px;
+  margin-top: 50px;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.searchBox{
+  background-color: black;
+  border: 2px solid #B2C2BF;
+  width: 220px;
+  height: 25px;
+  color: #B2C2BF;
+}
+
+::placeholder{
+  color: #B2C2BF;
+  text-align: center;
+  font-family: 'Share Tech';
+}
+
+.searchButton{
+  background-color: #B2C2BF;
+  height: 32px;
+  width: 75px;
+  font-family: 'Share Tech';
+  color: white;
+}
+
+#rightColHeader{
+  font-size: 18px;
+  text-align:right;
+  padding:1em;
+  color: white;
+  grid-column: 3/3;
+  grid-row: 1;
+  margin-top: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #B2C2BF;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+table{
+    position: relative;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 100%;
+    height: 200px;
+    border: #500FFF;
+    border-width: 4px;
+    border-style: outset;
+    background-color: #B2C2BF;
+}
+
+table tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+table th, td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table thead{
+    background-color: #500FFF;
+    color: white;
+}
+
+#seperate{
+  background-color: #B2C2BF;
+  width: 1440px;
+  height: 30px;
+  width: 100%;
+}
+
+footer{
+  color: white;
+  font-size:0.8;
+  display: flex;
+  padding:1em;
+}
+
+html a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#footerDiv{
+  flex: 1;
+  padding:1em;
+}
+
+#socialMedia ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#socialMedia li{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#socialMedia h3{
+  text-align: center;
+  margin-right: 80px;
+}

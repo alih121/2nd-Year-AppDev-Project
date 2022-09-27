@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 5 May 2022, 13:59:58
+    Author     : husse
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech';
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#register{
+    color: #500FFF;
+}
+
+#logo{
+    color: white;
+    width: 310px;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+
+#logo: hover{
+    color: #500FFF;
+}
+
+.form{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #B2C2BF;
+    text-align: center;
+    border: #500FFF;
+    border-width: 4px;
+    border-style: outset;
+}
+
+.form h1{
+    font-family: 'Share Tech';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form input[type = "text"], .form input[type = "password"]{
+    font-family: 'Share Tech';
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input[type = "text"]:focus, .form input[type = "password"]:focus{
+    width: 280px;
+    border-color: #500FFF;
+}
+
+.form input[type="submit"]{
+    font-family: 'Share Tech';
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #500FFF;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover{
+    background: #500FFF;
+}

@@ -1,0 +1,138 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 May 2022, 17:19:17
+    Author     : husse
+*/
+
+body{
+  background-color: black;
+  width:80%;
+  margin:0 auto;
+  font-family: 'Share Tech';
+  //margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: (3, 1fr);
+}
+
+#logo{
+  color: white;
+  width: 310px;
+  margin-left: 62px;
+  margin-top: 20px;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+#search{
+  width: 350px;
+  margin-left: 400px;
+  margin-top: 50px;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.searchBox{
+  background-color: black;
+  border: 2px solid #B2C2BF;
+  width: 220px;
+  height: 25px;
+  color: #B2C2BF;
+}
+
+::placeholder{
+  color: #B2C2BF;
+  text-align: center;
+  font-family: 'Share Tech';
+}
+
+.searchButton{
+  background-color: #B2C2BF;
+  height: 32px;
+  width: 75px;
+  font-family: 'Share Tech';
+  color: white;
+}
+
+#rightColHeader{
+  font-size: 18px;
+  text-align:right;
+  padding:1em;
+  color: white;
+  grid-column: 3/3;
+  grid-row: 1;
+  margin-top: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #B2C2BF;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.container p{
+    color: white;
+}
+
+#seperate{
+  background-color: #B2C2BF;
+  width: 1440px;
+  height: 30px;
+  width: 100%;
+}
+
+footer{
+  color: white;
+  font-size:0.8;
+  display: flex;
+  padding:1em;
+}
+
+html a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#footerDiv{
+  flex: 1;
+  padding:1em;
+}
+
+#socialMedia ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#socialMedia li{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#socialMedia h3{
+  text-align: center;
+  margin-right: 80px;
+}

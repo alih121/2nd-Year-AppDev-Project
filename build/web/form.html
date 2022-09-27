@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Technologies Finest Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Share Tech' rel='stylesheet'>
+    <link href="css/form.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="logo">
+    <a href="index.jsp"><h1 id="mainLogo">Technologies Finest</h1></a>
+  </div>   
+    <div class="container">
+        <div class="title">Contact Us</div>
+        <form class="form" action="Form" method="post"> 
+            <div class="userDetails">
+                <div class="input">
+                    <span class="details">Name</span>
+                    <input name="name" type="text" class="field" required>
+                </div>
+                <div class="input">
+                    <span class="details">Address</span>
+                    <input name="address" type="text" class="field">
+                </div>
+                <div class="input">
+                    <span class="details">Mobile</span>
+                    <input name="mobile" type="text" class="field">
+                </div>
+                <div class="input">
+                    <span class="details">Email</span>
+                    <input name="email" type="text" class="field" required>
+                </div>
+                <div class="input">
+                    <span class="details">Query</span>
+                    <input name="query" type="text" class="field" required>
+                </div>
+            </div>
+            <div class="memberStatus">
+                <label for="member">
+                    <span class="radio1">
+                        <input type="radio" id="member" name="member" value="Member">
+                    </span>
+                    <span class="member">Member</span>
+                </label>
+                <label for="member">
+                    <span class="radio2">
+                        <input type="radio" id="nonMember" name="member" value="Non-Member">
+                    </span>
+                    <span class="member">Non-Member</span>
+                </label>
+            </div>
+            <div class="button">
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
+        </form>
+     </div>
+
+<script>
+
+
+
+</script>
+
+</body>
+</html>

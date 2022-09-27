@@ -1,0 +1,1 @@
+All images, except images in folder 'originalPics', are from https://unsplash.com/.

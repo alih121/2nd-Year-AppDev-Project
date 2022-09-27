@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 May 2022, 12:32:58
+    Author     : husse
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech';
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: url(../images/contactUsBlurred.jpg) no-repeat center;
+    background-size: cover;
+    //z-index: -1;
+}
+
+#logo{
+    color: white;
+    width: 310px;
+    margin-left: 62px;
+    margin-top: -250px;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #B2C2BF;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: #500FFF;
+    border-width: 4px;
+    border-style: outset;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+}
+
+.container form .userDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.container form .userDetails .input{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.container .userDetails .input .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container .userDetails .input input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.5s ease;
+}
+
+.container .userDetails .input input:focus{
+    border-color: #500FFF;
+}
+
+form input[type="submit"]{
+    font-family: 'Share Tech';
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #500FFF;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background: #500FFF;
+}
